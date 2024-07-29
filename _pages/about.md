@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-<p><strong>societal computing phd student,</strong> carnegie mellon university</p>
+  <p><strong>societal computing phd student,</strong> carnegie mellon university</p>
 
 profile:
   align: right
