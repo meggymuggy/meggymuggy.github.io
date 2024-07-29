@@ -274,7 +274,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -531,8 +531,8 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  color: var(--global-theme-color);
   mjx-container[jax="CHTML"][display="true"] {
-    color: var(--global-theme-color);
     display: unset;
   }
 }
