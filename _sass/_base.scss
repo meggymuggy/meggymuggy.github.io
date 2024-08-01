@@ -188,7 +188,6 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
 
     p {
       display: inline-block;
@@ -532,6 +531,7 @@ footer.sticky-bottom {
 
 .post-title {
   color: var(--global-theme-color);
+  font-family: monospace;
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
