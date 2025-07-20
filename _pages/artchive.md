@@ -14,7 +14,7 @@ horizontal: false
     <a target="_blank" href="../assets/img/art/bed.jpg">
       <img src="../assets/img/art/bed.jpg" alt="my childhood bedroom">
     </a>
-    <div class="desc"><b>my childhood bedroom.</b><br> graphite and colored pencil on bristol board.</div>
+    <div class="desc"><b>childhood bedroom.</b><br> graphite and colored pencil on bristol board.</div>
   </div>
 </div>
 
@@ -42,6 +42,15 @@ horizontal: false
       <img src="../assets/img/art/philly.jpg" alt="Mountains">
     </a>
     <div class="desc"><b>phil.</b><br> digital paint (clip studio paint).</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="../assets/img/art/frog _combined.jpg">
+      <img src="../assets/img/art/frog _combined.jpg" alt="Mountains">
+    </a>
+    <div class="desc"><b>frog dissection.</b><br> colored pencil on bristol.</div>
   </div>
 </div>
 
