@@ -9,7 +9,7 @@ display_categories: [portfolio, sketches]
 horizontal: false
 ---
 
- <div class="responsive">
+<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="../assets/img/art/bed.jpg">
       <img src="../assets/img/art/bed.jpg" alt="my childhood bedroom">
@@ -18,25 +18,25 @@ horizontal: false
   </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="../assets/img/art/bus.png">
+      <img src="../assets/img/art/bus.png" alt="Forest">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="../assets/img/art/AFTERNOON_SLUMBER.jpg">
+      <img src="../assets/img/art/AFTERNOON_SLUMBER.jpg" alt="Northern Lights">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
 <!-- <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_mountains.jpg">
       <img src="img_mountains.jpg" alt="Mountains">
