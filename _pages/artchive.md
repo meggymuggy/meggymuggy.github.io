@@ -14,7 +14,7 @@ horizontal: false
     <a target="_blank" href="../assets/img/art/bed.jpg">
       <img src="../assets/img/art/bed.jpg" alt="my childhood bedroom">
     </a>
-    <div class="desc"><b>my childhood bedroom.</b> graphite and colored pencil on bristol board.</div>
+    <div class="desc"><b>my childhood bedroom.</b><br> graphite and colored pencil on bristol board.</div>
   </div>
 </div>
 
@@ -23,7 +23,7 @@ horizontal: false
     <a target="_blank" href="../assets/img/art/bus.png">
       <img src="../assets/img/art/bus.png" alt="Forest">
     </a>
-    <div class="desc"><b>schoolbus.</b> digital paint.</div>
+    <div class="desc"><b>schoolbus.</b><br> digital paint (heavypaint).</div>
   </div>
 </div>
 
@@ -32,17 +32,17 @@ horizontal: false
     <a target="_blank" href="../assets/img/art/AFTERNOON_SLUMBER.jpg">
       <img src="../assets/img/art/AFTERNOON_SLUMBER.jpg" alt="Northern Lights">
     </a>
-    <div class="desc"><b>henry.</b> acrylic on canvas.</div>
+    <div class="desc"><b>henry.</b><br> acrylic on canvas.</div>
   </div>
 </div>
 
-<!-- <div class="responsive">
+<div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains">
+    <a target="_blank" href="../assets/img/art/philly.jpg">
+      <img src="../assets/img/art/philly.jpg" alt="Mountains">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc"><b>phil.</b><br> digital paint (clip studio paint).</div>
   </div>
-</div> -->
+</div>
 
 <div class="clearfix"></div> 
