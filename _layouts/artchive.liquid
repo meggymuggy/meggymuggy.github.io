@@ -1,131 +1,14 @@
-<!doctype html>
-<html lang="{{ site.lang }}">
-  <!-- Head -->
-  <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
-    {% endif %}
-    {% include head.liquid %}
-    <style>
-        div.gallery {
-          border: 1px solid #ccc;
-        }
+---
+layout: gallery
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
 
-        div.gallery:hover {
-          border: 1px solid #777;
-        }
+  <article>
+    {{ content }}
+  </article>
 
-        div.gallery img {
-          width: 100%;
-          height: auto;
-        }
-
-        div.desc {
-          padding: 15px;
-          text-align: center;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-
-        .responsive {
-          padding: 0 6px;
-          float: left;
-          width: 24.99999%;
-        }
-
-        @media only screen and (max-width: 700px) {
-          .responsive {
-            width: 49.99999%;
-            margin: 6px 0;
-          }
-        }
-
-        @media only screen and (max-width: 500px) {
-          .responsive {
-            width: 100%;
-          }
-        }
-
-        .clearfix:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-    </style>
-  </head>
-
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
-    {% include header.liquid %}
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">
-            <div class="post">
-            <header class="post-header">
-              <h1 class="post-title">{{ page.title }}</h1>
-              <p class="post-description">{{ page.description }}</p>
-            </header></div>
-            {{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </div>
-
-    <!-- Footer -->
-    {% include footer.liquid %}
-
-    <!-- JavaScripts -->
-    {% include scripts/jquery.liquid %}
-    {% include scripts/bootstrap.liquid %}
-    {% include scripts/masonry.liquid %}
-    {% include scripts/mermaid.liquid %}
-    {% include scripts/diff2html.liquid %}
-    {% include scripts/leaflet.liquid %}
-    {% include scripts/chartjs.liquid %}
-    {% include scripts/echarts.liquid %}
-    {% include scripts/vega.liquid %}
-    {% include scripts/tikzjax.liquid %}
-    {% include scripts/typograms.liquid %}
-    {% include scripts/misc.liquid %}
-    {% include scripts/badges.liquid %}
-    {% include scripts/mathjax.liquid %}
-    {% include scripts/pseudocode.liquid %}
-    {% include scripts/analytics.liquid %}
-    {% include scripts/progressBar.liquid %}
-    {% include scripts/wechatModal.liquid %}
-    {% include scripts/imageLayouts.liquid %}
-    {% include scripts/jekyll_tabs.liquid %}
-    {% include scripts/back_to_top.liquid %}
-    {% include scripts/search.liquid %}
-  </body>
-
-</html>
+</div>
