@@ -21,3 +21,5 @@ Hi! I've just finished my first year as a PhD student at [S3D](https://s3d.cmu.e
 
 
 I graduated from Harvey Mudd College in 2024, where I majored in Computer Science and Math. As an undergraduate, I spent two summers at CMU's CyLab working with Lorrie Cranor [<span style="color:#919191">usable security & privacy</span>], one summer at MIT's IDSS with Peko Hosoi [<span style="color:#919191">housing equity & algorithmic fairness</span>], two semesters with Professor Susan Martonosi [<span style="color:#919191">misinformation on social media</span>], and two semesters with Lawrence Livermore National Lab through the Harvey Mudd Clinic Program [<span style="color:#919191">empirical scaling laws in machine learning</span>].
+
+I spend most of my free time [drawing](https://meggymuggy.github.io/artchive/), [reading](https://www.goodreads.com/meggymuggy), and lifting weights. 
