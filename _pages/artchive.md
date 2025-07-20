@@ -11,8 +11,8 @@ horizontal: false
 
  <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="meggymuggy.github.io/assets/img/art/bed.jpg">
-      <img src="meggymuggy.github.io/assets/img/art/bed.jpg" alt="my childhood bedroom">
+    <a target="_blank" href="../assets/img/art/bed.jpg">
+      <img src="../assets/img/art/bed.jpg" alt="my childhood bedroom">
     </a>
     <div class="desc">graphite and colored pencil on bristol board</div>
   </div>
