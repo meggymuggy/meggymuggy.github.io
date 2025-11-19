@@ -54,4 +54,13 @@ horizontal: false
   </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="../assets/img/art/poggy.JPEG">
+      <img src="../assets/img/art/poggy.JPEG" alt="Mountains">
+    </a>
+    <div class="desc"><b>poggy.</b><br> digital paint (heavypaint).</div>
+  </div>
+</div>
+
 <div class="clearfix"></div> 
