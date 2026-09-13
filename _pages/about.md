@@ -7,7 +7,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>&#128205; Pittsburgh, PA</p>
@@ -17,8 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm currently a second-year PhD student at [S3D](https://s3d.cmu.edu) within Carnegie Mellon University's School of Computer Science, jointly advised by [Lorrie Cranor](https://lorrie.cranor.org) and [Hoda Heidari](https://www.cs.cmu.edu/~hheidari/). 
+Hi! I'm currently a third-year PhD student at [S3D](https://s3d.cmu.edu) within Carnegie Mellon University's School of Computer Science, jointly advised by [Lorrie Cranor](https://lorrie.cranor.org) and [Hoda Heidari](https://www.cs.cmu.edu/~hheidari/). I am also currently affiliated with the [Center for Democracy & Technology](https://cdt.org/), where I am working with the [AI Governance Lab](https://cdt.org/cdt-ai-governance-lab/) on questions related to how to define, measure, and improve fairness in decisions informed by foundation models.
 
+My research interests are centered on AI's societal impacts, especially where it poses risks to people's civil rights and liberties, and interventions to mitigate these risks. For example, some questions that frame my work are: How can we characterize and measure sociotechnical harms from generative AI that are not only valid, but also practically useful to key stakeholders? How should we share and assign responsibility for managing AI's risks, especially as supply chains become increasingly complex?
 
 I graduated from Harvey Mudd College in 2024, where I majored in Computer Science and Math. As an undergraduate, I spent two summers at CMU's CyLab working with Lorrie Cranor [<span style="color:#919191">usable security & privacy</span>], one summer at MIT's IDSS with Peko Hosoi [<span style="color:#919191">housing equity & algorithmic fairness</span>], two semesters with Professor Susan Martonosi [<span style="color:#919191">misinformation on social media</span>], and two semesters with Lawrence Livermore National Lab through the Harvey Mudd Clinic Program [<span style="color:#919191">empirical scaling laws in machine learning</span>].
 
